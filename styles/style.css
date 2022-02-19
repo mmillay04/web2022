@@ -5,5 +5,14 @@ html {
 body {
   padding: 0;
   margin:0;
-  background-color: 
+  background-color: #ffffff;
+  /* blue color to be used: 00008bff */
+  /* red color to be used: cf000fff */
+  font-family: arial, sans-serif;
+}
+
+header {
+  background-color: #00008bff;
+  color: #fff;
+  
 }
