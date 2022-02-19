@@ -15,8 +15,14 @@ header {
   background-color: #00008bff;
   color: #fff;
   text-transform: uppercase;
+  /* font-size: tweak around with this */
 }
 
 header img {
-  height: 25%;
+  height: 120px;
+  width: 120px;
+}
+
+nav ul {
+  list-style-type: none;
 }
