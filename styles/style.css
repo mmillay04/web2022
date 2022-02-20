@@ -29,6 +29,7 @@ nav ul {
 
 nav ul li {
   font-weight: bold;
+  color: #cf000fff;
 }
 
 nav ul li a {
@@ -43,5 +44,6 @@ nav ul li a:hover {
   text-decoration: none;
 }
 
-nav ul li:nth-last-child(1) {
+nav ul li:nth-last-child(2) {
+  color: #cf000fff;
 }
