@@ -105,6 +105,8 @@ nav ul li:nth-child(8) {
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
+  padding: 15px 32px;
+  font-size: 16px;
 }
 
 #draft h3 {
