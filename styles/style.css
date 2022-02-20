@@ -200,3 +200,19 @@ nav ul li:nth-child(8) {
   padding: 15px 32px;
   font-size: 16px;
 }
+
+figcaption a {
+  color: #00008bff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+figcaption a:hover {
+  color: #cf000fff;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+footer {
+  color: #00008bff;
+}
