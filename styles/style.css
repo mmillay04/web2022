@@ -77,6 +77,30 @@ nav ul li:nth-child(8) {
   font-weight: bold;
 }
 
+.about_button {
+  background-color: #00008bff;
+  border-width: medium;
+  border-color: #cf000fff;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 32px;
+  font-size: 16px;
+}
+
+.get_started{
+  background-color: #00008bff;
+  border-width: medium;
+  border-color: #cf000fff;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 32px;
+  font-size: 16px;
+}
+
 #about h3 {
   color: #00008bff;
   font-weight: bold;
@@ -99,7 +123,7 @@ nav ul li:nth-child(8) {
 
 .nfl_overview {
   background-color: #00008bff;
-  border-width: thin;
+  border-width: medium;
   border-color: #cf000fff;
   text-align: center;
   text-transform: uppercase;
@@ -111,7 +135,7 @@ nav ul li:nth-child(8) {
 
 .nfl_teams{
   background-color: #00008bff;
-  border-width: thin;
+  border-width: medium;
   border-color: #cf000fff;
   text-align: center;
   text-transform: uppercase;
@@ -123,7 +147,7 @@ nav ul li:nth-child(8) {
 
 .nfl_standings {
   background-color: #00008bff;
-  border-width: thin;
+  border-width: medium;
   border-color: #cf000fff;
   text-align: center;
   text-transform: uppercase;
@@ -145,7 +169,7 @@ nav ul li:nth-child(8) {
 
 .nfl_draft{
   background-color: #00008bff;
-  border-width: thin;
+  border-width: medium;
   border-color: #cf000fff;
   text-align: center;
   text-transform: uppercase;
@@ -165,9 +189,9 @@ nav ul li:nth-child(8) {
   color: #000;
 }
 
-.nfl_draft{
+.nfl_news{
   background-color: #00008bff;
-  border-width: thin;
+  border-width: medium;
   border-color: #cf000fff;
   text-align: center;
   text-transform: uppercase;
