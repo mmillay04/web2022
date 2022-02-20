@@ -86,3 +86,33 @@ nav ul li:nth-child(8) {
   text-align: center;
   color: #000;
 }
+
+#NFL h3 {
+  color: #00008bff;
+  font-weight: bold;
+}
+
+#NFL p {
+  text-align: center;
+  color: #000;
+}
+
+#draft h3 {
+  color: #00008bff;
+  font-weight: bold;
+}
+
+#draft p {
+  text-align: center;
+  color: #000;
+}
+
+#news h3 {
+  color: #00008bff;
+  font-weight: bold;
+}
+
+#news p {
+  text-align: center;
+  color: #000;
+}
