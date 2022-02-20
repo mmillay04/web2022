@@ -26,3 +26,22 @@ header img {
 nav ul {
   list-style-type: none;
 }
+
+nav ul li {
+  font-weight: bold;
+}
+
+nav ul li a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #cf000fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav ul li:nth-last-child(1) {
+}
