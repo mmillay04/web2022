@@ -97,6 +97,16 @@ nav ul li:nth-child(8) {
   color: #000;
 }
 
+.nfl_overview {
+  background-color: #00008bff;
+  border-width: thin;
+  border-color: #cf000fff;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+
 #draft h3 {
   color: #00008bff;
   font-weight: bold;
