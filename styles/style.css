@@ -109,6 +109,30 @@ nav ul li:nth-child(8) {
   font-size: 16px;
 }
 
+.nfl_teams{
+  background-color: #00008bff;
+  border-width: thin;
+  border-color: #cf000fff;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 32px;
+  font-size: 16px;
+}
+
+.nfl_standings {
+  background-color: #00008bff;
+  border-width: thin;
+  border-color: #cf000fff;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 32px;
+  font-size: 16px;
+}
+
 #draft h3 {
   color: #00008bff;
   font-weight: bold;
@@ -119,6 +143,18 @@ nav ul li:nth-child(8) {
   color: #000;
 }
 
+.nfl_draft{
+  background-color: #00008bff;
+  border-width: thin;
+  border-color: #cf000fff;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 32px;
+  font-size: 16px;
+}
+
 #news h3 {
   color: #00008bff;
   font-weight: bold;
@@ -127,4 +163,16 @@ nav ul li:nth-child(8) {
 #news p {
   text-align: center;
   color: #000;
+}
+
+.nfl_draft{
+  background-color: #00008bff;
+  border-width: thin;
+  border-color: #cf000fff;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 32px;
+  font-size: 16px;
 }
