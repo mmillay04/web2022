@@ -77,6 +77,19 @@ nav ul li:nth-child(8) {
   font-weight: bold;
 }
 
+#main_photo_header a {
+  color: #00008bff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.80rem;
+}
+
+#main_photo_header a:hover {
+  color: #cf000fff;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
 .about_button {
   background-color: #00008bff;
   border-width: medium;
