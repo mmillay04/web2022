@@ -74,22 +74,24 @@ nav ul li:nth-child(8) {
 }
 
 #main_photo_header {
-  background-color: green;
+  background-color: orange;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  justfy: center;
 }
 
 #main_photo_header h2 {
   color: #00008bff;
   font-weight: bold;
   text-align: center;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  justfy: center;
 }
 
 #main_photo_header h3 {
   color: #fff;
   font-weight: bold;
   text-align: center;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  justfy: center;
 }
 
 #main_photo_header a {
@@ -97,6 +99,8 @@ nav ul li:nth-child(8) {
   text-transform: uppercase;
   text-decoration: none;
   font-size: 0.80rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  justfy: left;
 }
 
 #main_photo_header a:hover {
@@ -115,6 +119,8 @@ nav ul li:nth-child(8) {
   color: #fff;
   padding: 2px;
   font-size: 0.80rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  justfy: center;
 }
 
 .get_started{
@@ -127,6 +133,8 @@ nav ul li:nth-child(8) {
   color: #fff;
   padding: 2px;
   font-size: 0.80rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  justfy: center;
 }
 
 #about h3 {
