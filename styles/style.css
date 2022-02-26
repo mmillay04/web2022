@@ -34,6 +34,7 @@ header img {
 
 nav ul {
   list-style-type: none;
+  justify: end;
 }
 
 nav ul li {
@@ -73,7 +74,7 @@ nav ul li:nth-child(8) {
 }
 
 #main_photo_header {
-  background-color: purple;
+  background-color: green;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   justfy: center;
