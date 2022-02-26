@@ -170,8 +170,8 @@ nav ul li:nth-child(8) {
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
-  padding: 15px 32px;
-  font-size: 16px;
+  padding: 2px;
+  font-size: 0.80rem;
 }
 
 .get_started{
@@ -182,8 +182,8 @@ nav ul li:nth-child(8) {
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
-  padding: 15px 32px;
-  font-size: 16px;
+  padding: 2px;
+  font-size: 0.80rem;
 }
 
 #about h3 {
