@@ -133,7 +133,10 @@ nav ul li:nth-child(8) {
 }
 
 #main_photo_header {
-  background-color: #000;
+  background-color: #red;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  align-content: center;
 }
 
 #main_photo_header h2 {
