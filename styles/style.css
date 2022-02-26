@@ -74,7 +74,7 @@ nav ul li:nth-child(8) {
 }
 
 #main_photo_header {
-  background-color: teal;
+  background-color: red;
   display: grid;
 }
 
@@ -83,7 +83,7 @@ nav ul li:nth-child(8) {
   font-weight: bold;
   text-align: center;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  justfy: center;
+  justify-content: center;
 }
 
 #main_photo_header h3 {
@@ -91,7 +91,7 @@ nav ul li:nth-child(8) {
   font-weight: bold;
   text-align: center;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  justfy: center;
+  justify-content: center;
 }
 
 #main_photo_header a {
@@ -100,7 +100,7 @@ nav ul li:nth-child(8) {
   text-decoration: none;
   font-size: 0.80rem;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  justfy: left;
+  justify-content: center;
 }
 
 #main_photo_header a:hover {
@@ -119,10 +119,10 @@ nav ul li:nth-child(8) {
   color: #fff;
   padding: 2px;
   font-size: 0.80rem;
-  height: 20px;
-  width: 50px;
+  height: 40px;
+  width: 100px;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  justfy: center;
+  justify-content: center;
 }
 
 .get_started{
@@ -136,7 +136,7 @@ nav ul li:nth-child(8) {
   padding: 2px;
   font-size: 0.80rem;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  justfy: center;
+  justify-content: center;
 }
 
 #about h3 {
