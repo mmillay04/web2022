@@ -22,8 +22,8 @@ header {
 }
 
 .header_div {
-  grid-column: 1
-  grid-row: 1
+  grid-column: 1;
+  grid-row: 1;
 }
 
 header img {
