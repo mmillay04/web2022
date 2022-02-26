@@ -21,15 +21,24 @@ header {
   font-size: 1.5rem;
 }
 
-.header_div {
+.Logo_header {
   grid-column: 1;
+  grid-row: 1;
+}
+
+.NFLWorld {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+nav {
+  grid-column: 3;
   grid-row: 1;
 }
 
 nav ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  justify-items: end;
   font-size: 1.5rem;
 }
 
