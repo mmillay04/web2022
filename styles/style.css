@@ -15,7 +15,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: flex-start;
+  align-content: flex-end;
   align-items: stretch;
   height: 7rem;
   background-color: #00008bff;
@@ -76,26 +76,19 @@ nav ul li:nth-child(8) {
 }
 
 #main_photo_header {
-  background-color: green;
-  display: grid;
+  background-color: blue;
 }
 
 #main_photo_header h2 {
   color: #00008bff;
   font-weight: bold;
   text-align: center;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  justify-content: center;
 }
 
 #main_photo_header h3 {
   color: #fff;
   font-weight: bold;
   text-align: center;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  justify-content: center;
 }
 
 #main_photo_header a {
@@ -103,9 +96,6 @@ nav ul li:nth-child(8) {
   text-transform: uppercase;
   text-decoration: none;
   font-size: 0.80rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  justify-content: center;
 }
 
 #main_photo_header a:hover {
@@ -122,13 +112,8 @@ nav ul li:nth-child(8) {
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
-  padding: 2px;
   font-size: 0.80rem;
-  height: 40px;
-  width: 100px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  justify-content: center;
+  padding: 3px;
 }
 
 .get_started{
@@ -141,9 +126,6 @@ nav ul li:nth-child(8) {
   color: #fff;
   padding: 2px;
   font-size: 0.80rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  justify-content: center;
 }
 
 #about h3 {
