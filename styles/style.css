@@ -21,6 +21,11 @@ header {
   /* font-size: tweak around with this */
 }
 
+.header_div {
+  grid-column: 1
+  grid-row: 1
+}
+
 header img {
   height: 125px;
   width: 200px;
