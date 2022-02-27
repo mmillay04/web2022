@@ -14,7 +14,6 @@ header {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
   background-color: #00008bff;
   color: #fff;
   text-transform: uppercase;
@@ -75,7 +74,7 @@ nav ul li:nth-child(8) {
 }
 
 #main_photo_header {
-  background-color: gray;
+  background-color: black;
   padding: 10px;
 }
 
