@@ -148,6 +148,7 @@ nav ul li:nth-child(8) {
   flex-wrap: wrap;
   flex-direction: column;
 }
+
 #about h3 {
   color: #00008bff;
   font-weight: bold;
@@ -161,6 +162,12 @@ nav ul li:nth-child(8) {
 #NFL {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.NFL_nfl {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 #NFL h3 {
@@ -222,6 +229,12 @@ nav ul li:nth-child(8) {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
+.draft_nfl {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
 #draft h3 {
   color: #00008bff;
   font-weight: bold;
@@ -247,6 +260,12 @@ nav ul li:nth-child(8) {
 #news {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.news_nfl {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 #news h3 {
