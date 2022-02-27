@@ -68,7 +68,7 @@ nav ul li:nth-child(8) {
 }
 
 #main_photo_header {
-  background-color: orange;
+  background-color: teal;
   padding: 10px;
 }
 
@@ -135,6 +135,11 @@ nav ul li:nth-child(8) {
   color: #fff;
   padding: 2px;
   font-size: 0.80rem;
+}
+
+#about {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 #about h3 {
