@@ -10,6 +10,7 @@ body {
 }
 
 header {
+  padding: 20px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -74,7 +75,7 @@ nav ul li:nth-child(8) {
 }
 
 #main_photo_header {
-  background-color: green;
+  background-color: black;
   padding: 10px;
 }
 
