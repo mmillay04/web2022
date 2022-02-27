@@ -68,7 +68,7 @@ nav ul li:nth-child(8) {
 }
 
 #main_photo_header {
-  background-color: blue;
+  background-color: purple;
 }
 
 #main_photo_header h2 {
@@ -102,6 +102,13 @@ nav ul li:nth-child(8) {
   color: #cf000fff;
   text-transform: uppercase;
   text-decoration: underline;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .about_button {
