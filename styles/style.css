@@ -10,6 +10,7 @@ body {
 }
 
 header {
+  padding: 10px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   justify-content: : space-between;
