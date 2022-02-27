@@ -330,6 +330,12 @@ footer {
   justify-content: space-between;
 }
 
+.footer_info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
 footer h4 {
   text-transform: uppercase;
   font-weight: bold;
