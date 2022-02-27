@@ -21,6 +21,7 @@ header {
 
 header img {
   height: 100%;
+  width: 50px; /* mess with this some more */
 }
 
 nav ul {
@@ -68,7 +69,7 @@ nav ul li:nth-child(8) {
 }
 
 #main_photo_header {
-  background-color: yellow;
+  background-color: green;
   padding: 10px;
 }
 
@@ -170,6 +171,14 @@ nav ul li:nth-child(8) {
 #NFL p {
   text-align: center;
   color: #000;
+}
+
+.buttons1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
 }
 
 .nfl_overview {
