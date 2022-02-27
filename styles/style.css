@@ -10,7 +10,6 @@ body {
 }
 
 header {
-  padding: 10px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   justify-content: : space-between;
@@ -21,8 +20,7 @@ header {
 }
 
 header img {
-  height: 125px;
-  width: 200px;
+  height: 50%;
 }
 
 nav ul {
@@ -34,7 +32,7 @@ nav ul {
 
 nav ul li {
   font-weight: bold;
-  font-size: 0.8rem;
+  font-size: 1.25rem;
 }
 
 nav ul li a {
@@ -70,7 +68,8 @@ nav ul li:nth-child(8) {
 }
 
 #main_photo_header {
-  background-color: red;
+  background-color: orange;
+  padding: 10px;
 }
 
 #main_photo_header h2 {
