@@ -13,7 +13,6 @@ header {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   justify-content: : space-between;
-  height: 7rem;
   background-color: #00008bff;
   color: #fff;
   text-transform: uppercase;
@@ -69,7 +68,7 @@ nav ul li:nth-child(8) {
 }
 
 #main_photo_header {
-  background-color: orange;
+  background-color: green;
 }
 
 #main_photo_header h2 {
