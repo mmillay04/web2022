@@ -157,6 +157,11 @@ nav ul li:nth-child(8) {
   color: #000;
 }
 
+#NFL {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
 #NFL h3 {
   color: #00008bff;
   font-weight: bold;
@@ -203,6 +208,11 @@ nav ul li:nth-child(8) {
   font-size: 16px;
 }
 
+#draft {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
 #draft h3 {
   color: #00008bff;
   font-weight: bold;
@@ -223,6 +233,11 @@ nav ul li:nth-child(8) {
   color: #fff;
   padding: 15px 32px;
   font-size: 16px;
+}
+
+#news {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 #news h3 {
