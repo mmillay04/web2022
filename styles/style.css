@@ -70,7 +70,7 @@ nav ul li:nth-child(8) {
 }
 
 #main_photo_header {
-  background-color: black;
+  background-color: red;
 }
 
 #main_photo_header h2 {
@@ -111,6 +111,7 @@ nav ul li:nth-child(8) {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+  gap: 20px;
 }
 
 .about_button {
