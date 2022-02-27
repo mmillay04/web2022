@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  padding: 20px;
+  padding: 0px 5px 0px 5px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
