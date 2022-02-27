@@ -31,7 +31,7 @@ nav ul {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  font-size: 2.5rem;
+  font-size: 4rem;
 }
 
 nav ul li {
@@ -72,7 +72,7 @@ nav ul li:nth-child(8) {
 }
 
 #main_photo_header {
-  background-color: green;
+  background-color: red;
   padding: 10px;
 }
 
