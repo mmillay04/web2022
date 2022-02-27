@@ -68,7 +68,7 @@ nav ul li:nth-child(8) {
 }
 
 #main_photo_header {
-  background-color: purple;
+  background-color: red;
   padding: 10px;
 }
 
@@ -142,6 +142,11 @@ nav ul li:nth-child(8) {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
+.about_nfl {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
 #about h3 {
   color: #00008bff;
   font-weight: bold;
