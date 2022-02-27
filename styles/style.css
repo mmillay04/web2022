@@ -68,19 +68,27 @@ nav ul li:nth-child(8) {
 }
 
 #main_photo_header {
-  background-color: green;
+  background-color: blue;
 }
 
 #main_photo_header h2 {
   color: #00008bff;
   font-weight: bold;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
 
 #main_photo_header h3 {
   color: #fff;
   font-weight: bold;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
 
 #main_photo_header a {
