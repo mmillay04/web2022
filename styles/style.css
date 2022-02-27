@@ -22,7 +22,7 @@ header {
 
 header img {
   height: 100%;
-  width: 300px; /* mess with this some more */
+  width: 300px;
 }
 
 nav ul {
@@ -71,7 +71,7 @@ nav ul li:nth-child(8) {
 }
 
 #main_photo_header {
-  background-color: orange;
+  background-color: black;
   padding: 10px;
 }
 
@@ -343,6 +343,7 @@ footer {
 footer h4 {
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 1rem;
 }
 
 footer h5 {
