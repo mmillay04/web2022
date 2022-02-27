@@ -12,7 +12,7 @@ body {
 header {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  justify-items: center;
+  justify-content: : space-between;
   height: 7rem;
   background-color: #00008bff;
   color: #fff;
