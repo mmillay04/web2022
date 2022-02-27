@@ -12,7 +12,7 @@ body {
 header {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  justify-content: : space-between;
+  justify-content: space-between;
   background-color: #00008bff;
   color: #fff;
   text-transform: uppercase;
@@ -68,7 +68,7 @@ nav ul li:nth-child(8) {
 }
 
 #main_photo_header {
-  background-color: red;
+  background-color: orange;
   padding: 10px;
 }
 
@@ -263,6 +263,10 @@ figcaption a:hover {
 footer {
   background-color: #00008bff;
   color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 footer h4 {
