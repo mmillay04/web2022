@@ -147,6 +147,7 @@ nav ul li:nth-child(8) {
 section figure img {
   height: 230px;
   width: 400px;
+  border-radius: 50px;
 }
 
 #about {
