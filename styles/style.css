@@ -144,6 +144,11 @@ nav ul li:nth-child(8) {
   padding: 6px;
 }
 
+section figure img {
+  height: 360px;
+  width: 640px;
+}
+
 #about {
   padding: 10px;
   display: grid;
