@@ -76,9 +76,8 @@ nav ul li:nth-child(8) {
 
 #main_photo_header {
   background-image: url(images/field_background_image_home.jpg);
-  background-color: black;
   background-repeat: no-repeat;
-  height: 500px;
+  height: 450px;
   background-position: center;
   background-size: cover;
   padding: 10px;
@@ -109,6 +108,9 @@ nav ul li:nth-child(8) {
   text-transform: uppercase;
   text-decoration: none;
   font-size: 0.80rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 #main_photo_header a:hover {
