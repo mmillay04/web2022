@@ -75,7 +75,12 @@ nav ul li:nth-child(8) {
 }
 
 #main_photo_header {
+  background-image: url(images/field_background_image_home.jpg);
   background-color: black;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
   padding: 10px;
 }
 
@@ -321,7 +326,7 @@ section figure img {
 }
 
 figcaption {
-  text-decoration: center;
+  text-align: center;
 }
 
 figcaption a {
