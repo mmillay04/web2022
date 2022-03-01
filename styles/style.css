@@ -75,7 +75,7 @@ nav ul li:nth-child(8) {
 }
 
 #main_photo_header {
-  background-image: url('images/field_background_image_home.jpg');
+  background-image: url('/images/field_background_image_home.jpg');
   background-repeat: no-repeat;
   height: 450px;
   background-position: center;
