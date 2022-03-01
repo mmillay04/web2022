@@ -325,10 +325,6 @@ section figure img {
   padding: 6px;
 }
 
-figcaption {
-  text-align: center;
-}
-
 figcaption a {
   color: #00008bff;
   text-transform: uppercase;
