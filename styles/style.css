@@ -155,7 +155,8 @@ nav ul li:nth-child(8) {
 section figure img {
   height: 230px;
   width: 400px;
-  border-radius: 50px;
+  border: 10px solid #00008bff;
+  box-shadow: 10px 10px #cf000fff;;
 }
 
 #about {
