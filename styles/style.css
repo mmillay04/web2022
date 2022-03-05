@@ -21,11 +21,6 @@ header {
   text-transform: uppercase;
 }
 
-header img {
-  height: 100%;
-  width: 300px;
-}
-
 header h1 {
   font-size: 4rem;
 }
@@ -153,8 +148,6 @@ nav ul li:nth-child(8) {
 }
 
 section figure img {
-  height: 230px;
-  width: 400px;
   border: 10px solid #00008bff;
   box-shadow: 10px 10px #cf000fff;;
 }
@@ -377,9 +370,4 @@ footer p a {
 footer a:hover {
   color: #cf000fff;
   text-decoration: underline;
-}
-
-footer img {
-  height: 125px;
-  width: 200px;
 }
