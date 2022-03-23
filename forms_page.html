@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mock Contact Page</title>
+
+    <style>
+
+    h1 {
+      text-decoration: underline;
+      color: #cf000fff;
+    }
+
+    .user-details {
+      color: #00008bff;
+    }
+
+    .button {
+      border: 3px solid #cf000fff;
+      background-color: #00008bff;
+      color: white;
+      padding: 10px 15px 10px 15px;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    </style>
+
+  </head>
+  <body>
+
+    <h1> Interested in our email list? Sign up below! </h1>
+
+    <form action="scripts/action1.php" method="post" class="user-details">
+        <label for="fname"> First Name: </label>
+        <input type="text" name="fname" id="fname" required>
+        <br><br>
+        <label for="lname"> Last Name: </label>
+        <input type="text" name="lname" id="lname" required>
+        <br><br>
+        <label for="email"> Email: </label>
+        <input type="text" name="email" id="email" required>
+        <br><br>
+
+        <label for="NFLteam"> Favorite NFL Team: </label>
+        <select id="NFLteam" name="NFLteam">
+          <option value="">--Select a team--</option>
+          <option value="Bengals">Bengals</option>
+          <option value="Browns">Browns</option>
+          <option value="Steelers">Steelers</option>
+          <option value="Ravens">Ravens</option>
+          <option value="Bills">Bills</option>
+          <option value="Jets">Jets</option>
+          <option value="Dolphins">Dolphins</option>
+          <option value="Patriots">Patriots</option>
+          <option value="Colts">Colts</option>
+          <option value="Jaguars">Jaguars</option>
+          <option value="Titans">Titans</option>
+          <option value="Texans">Texans</option>
+          <option value="Chargers">Chargers</option>
+          <option value="Chiefs">Chiefs</option>
+          <option value="Broncos">Broncos</option>
+          <option value="Raiders">Raiders</option>
+          <option value="Bears">Bears</option>
+          <option value="Lions">Lions</option>
+          <option value="Packers">Packers</option>
+          <option value="Vikings">Vikings</option>
+          <option value="Commanders">Commanders</option>
+          <option value="Eagles">Eagles</option>
+          <option value="Giants">Giants</option>
+          <option value="Cowboys">Cowboys</option>
+          <option value="Falcons">Falcons</option>
+          <option value="Saints">Saints</option>
+          <option value="Panthers">Panthers</option>
+          <option value="Buccaneers">Buccaneers</option>
+          <option value="49ers">49ers</option>
+          <option value="Seahawks">Seahawks</option>
+          <option value="Rams">Rams</option>
+          <option value="Cardinals">Cardinals</option>
+        </select>
+        <br><br>
+
+        <fieldset>
+          <legend>How do you like NFL World so far? </legend>
+          <input type="radio" name="one" id="one">
+          <label for="one"> 1 - This website is absolutely horrible. </label><br>
+          <input type="radio" name="two" id="two">
+          <label for="two"> 2 - This website isn't great; I visit it every now and then.</label><br>
+          <input type="radio" name="three" id="three">
+          <label for="three"> 3 - This website is of adequate quality. </label><br>
+          <input type="radio" name="four" id="four">
+          <label for="four"> 4 - This website is good and enjoyable to use. </label><br>
+          <input type="radio" name="five" id="five">
+          <label for="five"> 5 - This is the best NFL informational website there is!</label><br>
+        </fieldset>
+        <br><br>
+
+        <label for="feedback"> What are some of your initials thoughts about NFL World?</label><br/>
+        <textarea name="feedback" id="feedback" rows="6" cols="60"></textarea>
+        <br><br>
+
+        <input type="submit" value="Sign Up" class="button">
+    </form>
+
+  </body>
+</html>
