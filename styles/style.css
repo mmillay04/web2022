@@ -1,3 +1,5 @@
+/* Home Page Styling */
+
 html {
   font-size: 100%;
 }
@@ -366,4 +368,152 @@ footer p a {
 footer a:hover {
   color: #cf000fff;
   text-decoration: underline;
+}
+
+/* Draft Page Styling */
+
+#tables {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.nav_selected {
+  color: #cf000fff;
+  text-decoration: underline;
+  text-decoration-color: #cf000fff;
+}
+
+caption {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  text-decoration: underline;
+  text-decoration-color: #cf000fff;
+  color: #00008bff;
+  text-align: left;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+thead {
+  background-color: #00008bff;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+td {
+  border: 1px solid black;
+}
+
+.header {
+  padding: 6px;
+}
+
+.center {
+  text-align: center;
+}
+
+.synopsis {
+  background-color: #00008bff;
+  color: white;
+  text-decoration: none;
+  padding: 12px 25px 12px 25px;
+}
+
+.synopsis:hover {
+  text-decoration: underline;
+  color: #cf000fff;
+}
+
+.teams_col {
+  text-align: center;
+  color: #cf000fff;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.pick_cols {
+  text-align: center;
+  font-weight: bolder;
+  color: #00008bff;
+  font-size: 2rem;
+}
+
+.player_cols {
+  padding-left: 10px;
+}
+
+.blue_text {
+  color: #00008bff;
+}
+
+.rank_cols {
+  text-align: center;
+  font-weight: bolder;
+  color: #cf000fff;
+  font-size: 2rem;
+}
+
+.name_col {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  font-size: 1rem;
+}
+
+.position_cols {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  font-size: 1rem;
+}
+
+.school_cols {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  font-size: 1rem;
+}
+
+.highlights {
+  background-color: #cf000fff;
+  color: white;
+  text-decoration: none;
+  padding: 5px 9px 5px 9px;
+  font-size: 1.25rem;
+}
+
+.highlights:hover {
+  text-decoration: underline;
+  color: #00008bff;
+}
+
+tfoot {
+  text-align: left;
+  background-color: #00008bff;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#nflwebsite {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#nflwebsite:hover {
+  text-decoration: underline;
+  color: #cf000fff;
+}
+
+.table1 {
+  padding-bottom: 25px;
+  padding-right: 60px;
+}
+
+.table2 {
+  padding-bottom: 25px;
+  padding-right: 10px;
 }

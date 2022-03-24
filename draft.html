@@ -8,103 +8,6 @@
     <meta name="author" content="McKensie Millay">
     <meta name="description" content="My Personal Website for ICT 420">
     <meta name="language" content="en">
-    <style>
-
-    .nav7 {
-      color: #cf000fff;
-      text-decoration: underline;
-      text-decoration-color: #cf000fff;
-    }
-
-    caption {
-      text-transform: uppercase;
-      font-size: 2.5rem;
-      text-decoration: underline;
-      text-decoration-color: #cf000fff;
-      color: #00008bff;
-      text-align: left;
-      padding-top: 25px;
-      padding-bottom: 15px;
-    }
-
-    thead {
-      background-color: #00008bff;
-      color: white;
-      font-weight: bolder;
-      text-align: center;
-      font-size: 2.3rem;
-    }
-
-    td {
-      border: 1px solid black;
-    }
-
-    .header {
-      padding: 10px;
-    }
-
-    .center {
-      text-align: center;
-    }
-
-    .synopsis {
-      background-color: #00008bff;
-      color: white;
-      text-decoration: none;
-      padding: 12px 25px 12px 25px;
-    }
-
-    .synopsis:hover {
-      text-decoration: underline;
-      color: #cf000fff;
-    }
-
-    .teams_col {
-      text-align: center;
-      color: #cf000fff;
-      font-weight: bolder;
-      font-size: 2rem;
-    }
-
-    .pick_cols {
-      text-align: center;
-      font-weight: bolder;
-      color: black;
-      font-size: 2rem;
-    }
-
-    .player_cols {
-      padding-left: 10px;
-    }
-
-    .blue_text {
-      color: #00008bff;
-    }
-
-    tfoot {
-      text-align: left;
-      background-color: #00008bff;
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    #nflwebsite {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    #nflwebsite:hover {
-      text-decoration: underline;
-      color: #cf000fff;
-    }
-
-    table {
-      padding-bottom: 25px;
-    }
-
-    </style>
   </head>
 
   <body>
@@ -128,21 +31,23 @@
           <li class="nav4"> | </li>
           <li class="nav5"> <a href="Standings.html"> STANDINGS </a></li>
           <li class="nav6"> | </li>
-          <li class="nav7"> <a href="Draft.html"> DRAFT </a></li>
+          <li class="nav_selected"> <a href="Draft.html"> DRAFT </a></li>
           <li class="nav8"> | </li>
           <li class="nav9"> <a href="News.html"> NEWS </a></li>
         </ul>
       </nav>
       </header>
 
-        <table>
+      <section id="tables">
+
+        <table class="table1">
           <caption> Latest NFL Mock Draft </caption>
           <thead>
             <tr>
-              <td class="header"> Pick # </td>
-              <td class="header"> Team </td>
-              <td class="header"> Player Info </td>
-              <td class="header"> Learn More </td>
+              <td class="header"> PICK # </td>
+              <td class="header"> TEAM </td>
+              <td class="header"> PLAYER INFO </td>
+              <td class="header"> LEARN MORE</td>
             </tr>
           </thead>
 
@@ -219,6 +124,80 @@
           </tfoot>
 
         </table>
+
+        <table class="table2">
+          <caption> Top Ranked Players </caption>
+          <thead>
+            <tr>
+              <td class="header"> RANK </td>
+              <td class="header"> NAME </td>
+              <td class="header"> POSITION </td>
+              <td class="header"> SCHOOL </td>
+              <td class="header"> PLAYER <br> HIGHLIGHTS </td>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td class="rank_cols"> 1 </td>
+              <td class="name_col"> AIDAN <br> HUTCHINSON </td>
+              <td class="position_cols"> EDGE </td>
+              <td class="school_cols"> MICHIGAN </td>
+              <td class="center"> <a class="highlights" href=""> Highlights </a> </td>
+            </tr>
+            <tr>
+              <td class="rank_cols"> 2 </td>
+              <td class="name_col"> DIAM <br> VEL </td>
+              <td class="position_cols"> AB </td>
+              <td class="school_cols"> VITAE </td>
+              <td class="center"> <a class="highlights" href=""> Highlights </a> </td>
+            </tr>
+            <tr>
+              <td class="rank_cols"> 3 </td>
+              <td class="name_col"> DIAM <br> VEL </td>
+              <td class="position_cols"> AB </td>
+              <td class="school_cols"> VITAE </td>
+              <td class="center"> <a class="highlights" href=""> Highlights </a> </td>
+            </tr>
+            <tr>
+              <td class="rank_cols"> 4 </td>
+              <td class="name_col"> DIAM <br> VEL </td>
+              <td class="position_cols"> AB </td>
+              <td class="school_cols"> VITAE </td>
+              <td class="center"> <a class="highlights" href=""> Highlights </a> </td>
+            </tr>
+            <tr>
+              <td class="rank_cols"> 5 </td>
+              <td class="name_col"> DIAM <br> VEL </td>
+              <td class="position_cols"> AB </td>
+              <td class="school_cols"> VITAE </td>
+              <td class="center"> <a class="highlights" href=""> Highlights </a> </td>
+            </tr>
+            <tr>
+              <td class="rank_cols"> 6 </td>
+              <td class="name_col"> DIAM <br> VEL </td>
+              <td class="position_cols"> AB </td>
+              <td class="school_cols"> VITAE </td>
+              <td class="center"> <a class="highlights" href=""> Highlights </a> </td>
+            </tr>
+            <tr>
+              <td class="rank_cols"> 7 </td>
+              <td class="name_col"> DIAM <br> VEL </td>
+              <td class="position_cols"> AB </td>
+              <td class="school_cols"> VITAE </td>
+              <td class="center"> <a class="highlights" href=""> Highlights </a> </td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td colspan="5"> Powered by <a id="nflwebsite" href="https://www.nfl.com/"> NFL.com </a> </td>
+            </tr>
+          </tfoot>
+
+        </table>
+
+      </section>
 
 
     <footer>
