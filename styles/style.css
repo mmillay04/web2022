@@ -433,13 +433,13 @@ tfoot {
   font-weight: bold;
 }
 
-#nflwebsite {
+.nflwebsite {
   color: white;
   text-decoration: none;
   font-weight: bold;
 }
 
-#nflwebsite:hover {
+.nflwebsite:hover {
   text-decoration: underline;
   color: #cf000fff;
 }
