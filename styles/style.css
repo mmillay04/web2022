@@ -68,7 +68,8 @@ nav ul li:nth-child(8) {
 }
 
 .wrapper {
-  margin: 2em 8em 2em 8em;
+  padding-left: 40px;
+  padding-right: 30px;
 }
 
 #main_photo_header h2 {
@@ -117,32 +118,30 @@ nav ul li:nth-child(8) {
   gap: 20px;
 }
 
-.about_button {
+.intro_button {
   background-color: #00008bff;
-  border-width: medium;
-  border-color: #cf000fff;
-  text-align: center;
-  text-transform: uppercase;
+  color: white;
   text-decoration: none;
-  color: #fff;
-  font-size: 0.80rem;
-  padding: 6px;
-  height:75px;
-  width:200px;
+  padding: 30px 25px 30px 25px;
+  border: 3px solid #cf000fff;
 }
 
-.get_started{
+.intro_button:hover {
+  font-weight: bold;
+  color: #cf000fff;
+}
+
+.body_button {
   background-color: #00008bff;
-  border-width: medium;
-  border-color: #cf000fff;
-  text-align: center;
-  text-transform: uppercase;
+  color: white;
   text-decoration: none;
-  color: #fff;
-  font-size: 0.80rem;
-  padding: 6px;
-  height:75px;
-  width:200px;
+  padding: 10px 15px 10px 15px;
+  border: 2px solid #cf000fff;
+}
+
+.body_button:hover {
+  font-weight: bold;
+  color: #cf000fff;
 }
 
 section figure img {
@@ -202,41 +201,6 @@ section figure img {
   gap: 20px;
 }
 
-.nfl_overview {
-  background-color: #00008bff;
-  border-width: medium;
-  border-color: #cf000fff;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #fff;
-  font-size: 0.80rem;
-  padding: 6px;
-}
-
-.nfl_teams{
-  background-color: #00008bff;
-  border-width: medium;
-  border-color: #cf000fff;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #fff;
-  font-size: 0.80rem;
-  padding: 6px;
-}
-
-.nfl_standings {
-  background-color: #00008bff;
-  border-width: medium;
-  border-color: #cf000fff;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #fff;
-  font-size: 0.80rem;
-  padding: 6px;
-}
 
 #draft {
   padding: 10px;
@@ -267,17 +231,6 @@ section figure img {
   justify-content: center;
 }
 
-.nfl_draft{
-  background-color: #00008bff;
-  border-width: medium;
-  border-color: #cf000fff;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #fff;
-  font-size: 0.80rem;
-  padding: 6px;
-}
 
 #news {
   padding: 10px;
@@ -306,18 +259,6 @@ section figure img {
 #news p {
   text-align: center;
   color: #000;
-}
-
-.nfl_news{
-  background-color: #00008bff;
-  border-width: medium;
-  border-color: #cf000fff;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #fff;
-  font-size: 0.80rem;
-  padding: 6px;
 }
 
 figcaption a {
@@ -371,11 +312,6 @@ footer a:hover {
 }
 
 /* Draft Page Styling */
-
-#tables {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-}
 
 .nav_selected {
   color: #cf000fff;
@@ -516,4 +452,9 @@ tfoot {
 .table2 {
   padding-bottom: 25px;
   padding-right: 10px;
+}
+
+#tables {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
