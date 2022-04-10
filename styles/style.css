@@ -387,10 +387,6 @@ td {
   color: #cf000fff;
 }
 
-.bold_text {
-  text-weight: bolder;
-}
-
 .rank_cols {
   text-align: center;
   font-weight: bolder;
