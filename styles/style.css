@@ -34,13 +34,36 @@ nav ul {
   flex-direction: row;
 }
 
+.conf_ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+  background-color: #D3D3D3;
+  padding: 10px;
+}
+
+
 nav ul li {
   font-weight: bold;
   font-size: 2rem;
+  text-align: center;
+}
+
+.conf {
+  font-weight: bold;
+  font-size: 1.77rem;
 }
 
 nav ul li a {
   color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.conf_a {
+  color: #00008bff;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -50,6 +73,13 @@ nav ul li a:hover {
   text-transform: uppercase;
   text-decoration: none;
 }
+
+.conf_a:hover {
+  color: #cf000fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 
 nav ul li:nth-child(2) {
   color: #cf000fff;
@@ -338,16 +368,13 @@ thead {
   font-size: 1.4rem;
 }
 
-td {
-  border: 1px solid black;
-}
-
 .header {
   padding: 6px;
 }
 
 .center {
   text-align: center;
+  border: 1px solid black;
 }
 
 .synopsis {
@@ -355,6 +382,7 @@ td {
   color: white;
   text-decoration: none;
   padding: 12px 25px 12px 25px;
+  border: 1px solid black;
 }
 
 .synopsis:hover {
@@ -367,6 +395,7 @@ td {
   color: #cf000fff;
   font-weight: bolder;
   font-size: 2rem;
+  border: 1px solid black;
 }
 
 .pick_cols {
@@ -374,10 +403,12 @@ td {
   font-weight: bolder;
   color: #00008bff;
   font-size: 2rem;
+  border: 1px solid black;
 }
 
 .player_cols {
   padding-left: 10px;
+  border: 1px solid black;
 }
 
 .blue_text {
@@ -392,6 +423,7 @@ td {
   font-weight: bolder;
   color: #cf000fff;
   font-size: 2rem;
+  border: 1px solid black;
 }
 
 .name_col {
@@ -399,6 +431,7 @@ td {
   font-weight: bold;
   color: black;
   font-size: 1rem;
+  border: 1px solid black;
 }
 
 .position_cols {
@@ -406,6 +439,7 @@ td {
   font-weight: bold;
   color: black;
   font-size: 1rem;
+  border: 1px solid black;
 }
 
 .school_cols {
@@ -413,6 +447,7 @@ td {
   font-weight: bold;
   color: black;
   font-size: 1rem;
+  border: 1px solid black;
 }
 
 .highlights {
@@ -421,6 +456,7 @@ td {
   text-decoration: none;
   padding: 5px 9px 5px 9px;
   font-size: 1.25rem;
+  border: 1px solid black;
 }
 
 .highlights:hover {
@@ -462,76 +498,57 @@ tfoot {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
-.table_teams {
-  padding-bottom: 25px;
-  padding-right: 10px;
-}
-
-.teams_cols_2 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2px;
-}
-
-.one {
-  grid-column: 1;
-  grid-row: 1;
-  padding: 10px;
-  font-size: 3rem;
-  color: #00008bff;
-}
-
-.two {
-  grid-column: 1;
-  grid-row: 2;
-  padding: 10px;
-  font-weight: bolder;
-  color: #00008bff;
-  font-size: 4rem;
-}
-
-.three {
-  grid-column: 2;
-  grid-row: 1 / 4;
-  padding: 25px;
-}
-
-.four {
-  grid-column: 1;
-  grid-row: 3;
-  padding: 10px;
-}
-
-.five {
-  grid-column: 1;
-  grid-row: 4;
-  padding: 10px;
-}
-
-.six {
-  grid-column: 1;
-  grid-row: 5;
-  padding: 10px;
-}
-
-.seven {
-  grid-column: 2;
-  grid-row: 3;
-  padding: 10px;
-}
-
-.eight {
-  grid-column: 2;
-  grid-row: 4;
-  padding: 10px;
-}
 
 .nine {
-  grid-column: 2;
-  grid-row: 5;
   background-color: #00008bff;
   color: white;
   text-decoration: none;
-  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 45px;
+  padding-right: 45px;
+  margin-left: 5px;
+}
+
+.padding {
   padding: 10px;
+}
+
+.borders {
+  border: 1px solid black;
+  width:500px;
+}
+
+.extra_size {
+  font-size: 2.8rem;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.team_tables {
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+.Pats {
+  font-size: 2.4rem;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.Bucs {
+  font-size: 2.1rem;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.WSH {
+  font-size: 2rem;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.pop_player {
+  color: #cf000fff;
+  font-size: 0.9rem;
 }
